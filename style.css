@@ -37,4 +37,14 @@ p1{
   font-variation-settings:
     "wdth" 100;
   font-optical-sizing: auto;
+  /* FONTES NINJA PRA ROUBAR FONTE */
 }
+
+/* ALINHAMENTO DO TEXTO */
+
+.p1{
+    text-align: justify; /*  PARAGRAFO JUSTIFICADO       */
+    text-indent: 30px; /* TEXTO COM RECUO, IGUAL PARAGRAFO E TAB        */
+    font-size: 10px;
+}
+

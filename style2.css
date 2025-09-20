@@ -1,0 +1,18 @@
+/* Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. */
+
+div{
+    background-color: brown;
+}
+div:hover{
+     background-color: blue;
+    font-size: 300px;
+}
+
+div > p {
+    display: none;
+}
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: blue;
+}
