@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif; /* navegador vai reconehcer o tipo de fonte, sempre vai com a prioridade, caso ele nao encontre a primeira segue pras outras (mostrar safe combination) */
+}
+
+/* lista de seletores
+colocar mais de um seletor na mesma declaração
+*/
+
+h1, h2{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+
+    /* san-serif = sem serifa , serif = fonte serifada, com linha */
+}
+
+p1{ /*tamanho da fonte e tipos(cm, mm, px) e (em, ex, vw, vh, %) recomendadas px e em */
+    font-size: 16px;
+    /* recomendada, e padrão    */
+}
+p2 {
+    font-size: 1em;
+    /* mais recomendada ainda pq ele é relativo     */
+}
+/* peso da fonta      */
+p1{
+    font-weight: bold; /* peso da fonte, cuidado para nao confundir      */
+    font-style: italic; 
+    text-decoration: underline; /* texto sublinhado       */
+    /* ligther, normal, bold, bolder     */
+}
+/*  utilizando google fonts     */
+.p2{
+     font-family: "Roboto", serif;
+     font-weight: bolder;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-optical-sizing: auto;
+}
