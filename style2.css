@@ -1,18 +1,31 @@
-/* Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. */
+/* Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. 
+depois de alguma coisa qual vai ser o comportamento da classe */
 
-div{
+.salve{
     background-color: brown;
 }
-div:hover{
-     background-color: blue;
-    font-size: 300px;
-}
-
 div > p {
     display: none;
 }
 div:hover > p {
-    display: block;
+    display: inline;
     color: white;
     background-color: blue;
+   
 }
+div:hover{
+     background-color: blue;
+      width: 300px;
+   
+}
+
+
+button:hover{
+    background-color: blue;
+
+}
+
+/* :visited, active, :hover*/
+
+/* Pseudo-elementos (com ::): Estilizam uma parte específica de um elemento, como ::before ou ::first-letter. 
+Pseudo-classes (com :): Estilizam um elemento quando ele está em um estado particular, como :hover para quando o mouse está sobre ele ou :visited para um link já visitado. */
